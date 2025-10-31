@@ -1,3 +1,9 @@
+# The Unity Textbook (7th Edition) – Updated for Unity 6
+
+This repository contains the source code from **"The Unity Textbook (7th Edition)"**,  published by **Gilbut Publishing Co., Ltd.**, migrated to work with **Unity 6**.
+
+The following section includes the original README provided by the publisher.
+
 <유니티 교과서, 개정7판>
 =======================
 
