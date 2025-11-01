@@ -1,6 +1,9 @@
 # The Unity Textbook (7th Edition) – Updated for Unity 6
 
-This repository contains the source code from **"The Unity Textbook (7th Edition)"**,  published by **Gilbut Publishing Co., Ltd.**, migrated to work with **Unity 6**.
+This repository contains the source code from [The Unity Textbook (7th Edition)](https://www.gilbut.co.kr/book/view?bookcode=BN004221&keyword=%EC%9C%A0%EB%8B%88%ED%8B%B0%20%EA%B5%90%EA%B3%BC%EC%84%9C%20%EA%B0%9C%EC%A0%95%207%ED%8C%90&collection=GB_BOOK), published by [Gilbut Publishing Co., Ltd.](https://www.gilbut.co.kr/), and updated to ensure compatibility with **Unity 6**.
+
+* All scripts and scenes were tested on **Unity 6000.2.7f2 (Apple Silicon)**.  
+* Each project was created using the **Universal 2D template**.
 
 The following section includes the original README provided by the publisher.
 
