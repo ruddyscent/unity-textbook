@@ -1,10 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class RouletteController : MonoBehaviour
 {
-    float rotSpeed = 0;  // 회전 속도   
+    float rotSpeed = 0f;  // 회전 속도   
 
     void Start()
     {
@@ -15,7 +14,8 @@ public class RouletteController : MonoBehaviour
     void Update()
     {
         // 클릭하면 회전 속도를 설정한다.
-        if (Input.GetMouseButtonDown(0))
+        if (Mouse.current?.leftButton.wasPressedThisFrame == true ||             // 마우스를 클릭하면
+            Touchscreen.current?.primaryTouch.press.wasPressedThisFrame == true) // 또는 화면을 터치하면
         {
             this.rotSpeed = 10;
         }
