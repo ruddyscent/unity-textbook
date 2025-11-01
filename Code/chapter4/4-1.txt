@@ -12,8 +12,8 @@ public class CarController : MonoBehaviour
 
     void Update()
     {
-        if (Mouse.current?.leftButton.wasPressedThisFrame ||             // 마우스를 클릭하면
-            Touchscreen.current?.primaryTouch.press.wasPressedThisFrame) // 또는 화면을 터치하면
+        if (Mouse.current?.leftButton.wasPressedThisFrame == true ||             // 마우스를 클릭하면
+            Touchscreen.current?.primaryTouch.press.wasPressedThisFrame == true) // 또는 화면을 터치하면
         {
             this.speed = 0.2f;                      // 초기 속도를 설정한다.
         }
